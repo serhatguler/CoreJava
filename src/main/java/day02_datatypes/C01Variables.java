@@ -5,8 +5,8 @@ public class C01Variables {
         byte stdAge = 13;
         System.out.println(stdAge);
 
-        short numOfStdInHighSchool = 3245;
-        System.out.println(numOfStdInHighSchool);
+//        short numOfStdInHighSchool = 3245;
+//        System.out.println(numOfStdInHighSchool);
 
         int popOfMiami = 1200000;
         System.out.println(popOfMiami);
