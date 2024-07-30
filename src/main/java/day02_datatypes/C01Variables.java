@@ -8,6 +8,8 @@ public class C01Variables {
 //        short numOfStdInHighSchool = 3245;
 //        System.out.println(numOfStdInHighSchool);
 
+        // deneme
+
         int popOfMiami = 1200000;
         System.out.println(popOfMiami);
 

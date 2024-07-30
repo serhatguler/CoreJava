@@ -29,4 +29,17 @@ public class C02MethodCreation {
     }
     //Note: Variables used in "method creation" are called "Parameters"
     //      Actual values used in method call are called "Arguments"
+
+    //    public static int multiply(int a, int b, int c){
+//
+//        return a*b+c;
+//    }
+
+    // girilen bir kelimeyi ekrana yzdiran bir method olusturun
+//    public static void print(String str){
+//        System.out.println(str);
+//    }
+
+    // Eger bir metod yeni bir data uretmiyor ise return type i void olur
+    //method return type ise method body icinde return keyword kullanilmaz.
 }

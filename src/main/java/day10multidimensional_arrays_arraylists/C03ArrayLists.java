@@ -63,12 +63,13 @@ public class C03ArrayLists {
             }
         }
         System.out.println(p);//[11, 24, 12, 11, 11]
-        //Example 2: Create a String ArrayList and remove the elements contain a
+
         ArrayList<String> r = new ArrayList<>();
         r.add("Miami");
         r.add("New York");
         r.add("Tampa");
-        r.add("Virginia");
+       r.add("Virginia");
+
         System.out.println(r);// [Miami, New York, Tampa, Virginia]
 
         for(int i=0 ; i<r.size(); i++){
