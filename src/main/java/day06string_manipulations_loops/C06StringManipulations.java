@@ -25,5 +25,7 @@ public class C06StringManipulations {
 
         String r7 = s.repeat(3);
         System.out.println(r7);// Java is JavaJava is JavaJava is Java
+
+
     }
 }

@@ -5,7 +5,7 @@ public class C01StringBuilder {
     /* 1)We have 3 classes in Java to create String;
             i)String Class  ii)StringBuilder Class ii)StringBuffer Class
         2)Why did Java create 3 classes to create Strings?
-            i)String Class is "immutable", StringBuilder Class is "mutable"
+            i)String Class is "immutable"(degistilemez), StringBuilder Class is "mutable"
             When you update a String, Java creates a new container and puts the updated value in it.
             When you update a String, Java does not update original value. This is called "immutability"
 
