@@ -28,6 +28,8 @@ public class C01LinkedList01 {
         list.add("Melih");
         list.add("serhat");
         list.add("tuba");
+
+
         System.out.println(list); //[Mehmet, derya, Melih, serhat, tuba]
 
         list.add(1, "Zafer");

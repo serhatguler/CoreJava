@@ -19,10 +19,12 @@ public class C02Sets01 {
 
                  ii)LinkedHashSet Class:
                     LinkedHashSet  ler elemanlari sizin verdiginiz siraya gore dizer.. HashSet lere gore yavastir.
+                    null kabul eder
 
                  iii)TreeSet Class:
                     TreeSet elemanlari natural order a gore siralar.
                     Bu yuzden cok yavastir, en yavastir. Mumkun oldugunca kulanmamaya calisiriz
+                    null kabul etmez
 
          */
 
