@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class Queues01 {
+public class C04Queues01 {
     public static void main(String[] args) {
 
         Queue<String> depo = new LinkedList<>();

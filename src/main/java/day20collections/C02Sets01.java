@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
-public class Sets01 {
+public class C02Sets01 {
     public static void main(String[] args) {
 
         /*
