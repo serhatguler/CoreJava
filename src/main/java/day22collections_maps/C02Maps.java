@@ -28,7 +28,7 @@ public class C02Maps {
         for(String w:keys){
             numOfChars = numOfChars + w.length();
         }
-        System.out.println(numOfChars);
+        System.out.println(numOfChars);//23
 
         //How to work with just values
         //Example 2: Find average age of the students.
@@ -51,7 +51,7 @@ public class C02Maps {
         }
 
         int age1 = stdAges.get("Angelina");
-        System.out.println(age1);
+        System.out.println(age1);//55
 
         stdAges.putIfAbsent("Angelina", 67);
         stdAges.putIfAbsent("Carl", 16);

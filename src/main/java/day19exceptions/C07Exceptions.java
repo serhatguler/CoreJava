@@ -15,6 +15,10 @@ public class C07Exceptions {
             System.out.println(age);
         }
 
-
     }
+    /*
+        throw keywordunu bir metodun bodysi icinde istedigimiz yerde , istedigimiz kaosullar icin istedigimiz kadar Exception atmamizi saglar.
+        Throw yazildiktan sonra bir Exception class objecti olusturulur.
+        Exception Class constructor in parentez izine istedigimiz Exception mesajini yazabiliriz.
+     */
 }

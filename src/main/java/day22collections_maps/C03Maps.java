@@ -37,9 +37,22 @@ public class C03Maps {
         //Homework: Create a method to display the number of occurrences of letters in a sentence
         //Java, Java, I love Java. ==> J=3, a=6, v=4, I=1, l=1, o=1, e=1
 
+        String deneme = "Java, Java, I love Java.";
+        deneme = deneme.replaceAll("[^A-Za-z]","");
+        String[] letters = deneme.split("");
+        System.out.println(Arrays.toString(letters));//[J, a, v, a, J, a, v, a, I, l, o, v, e, J, a, v, a]
+        HashMap<String,Integer> hashMap = new HashMap<>();
+        for (String u : letters) {
+            Integer numberOfoccurance = hashMap.get(u);
 
+            if (numberOfoccurance==null){
+                hashMap.put(u,1);
+            }else {
+                hashMap.replace(u,numberOfoccurance+1);
+            }
 
-
+        }
+        System.out.println(hashMap);
 
 
     }

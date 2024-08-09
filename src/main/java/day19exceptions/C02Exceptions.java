@@ -4,7 +4,7 @@ public class C02Exceptions {
 
     /*
 
-        NumberFormatException: Icinde rakamlar disinda karekter olan string i  sayiyya cevirmek icin verilen hatadir.
+        NumberFormatException: Icinde rakamlar disinda karekter olan string i  sayiya cevirmek icin verilen hatadir.
      */
     public static void main(String[] args) {
 

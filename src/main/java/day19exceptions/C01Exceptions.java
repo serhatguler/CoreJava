@@ -6,14 +6,14 @@ public class C01Exceptions {
 
             Yazdigimiz kodlar calismazsa loglara bakariz.
             Java exception firlatiginda kodun calismasi durur. Kodun calismasini saglamak icin try catch ile exception
-            olusturmasi ,uhtemel kodlari try catch blogu icine yazariz
+            olusturmasi ,muhtemel kodlari try catch blogu icine yazariz
 
             Exception i handle edebilmek icin 2 tane yontem vardir
             a- Exception icin gerekli cozum uretebiliriz. Buna exception handling denir.
                Bunu try catch ile yapabiliriz.
                try block yapilmasi gereken kodu yazar. problemsiz yaparsa catch block aktif edilmez.
-               try block icinde hata yaklarsa catch devrye girer ve catch block icindeki kodlar calisir.
-               try block da islem yapilirken exception olusrsa try block icerisindeki exceptiondan sonraki kodlar calismaz.
+               try block icinde hata yaklarsa catch devreye girer ve catch block icindeki kodlar calisir.
+               try block da islem yapilirken exception olusursa try block icerisindeki exceptiondan sonraki kodlar calismaz.
             b-Exception olustugunda bunu ilan eder ve geri cekiliriz. Buna Throw Exception denir.
 
      */
