@@ -24,18 +24,18 @@ public class C04Iterators {
         myList.add("Clara");
         myList.add("Angie");
         myList.add("Mark");
-        System.out.println(myList);
+        System.out.println(myList);//[Tom, Jim, Clara, Angie, Mark]
 
         //Type code to remove all elements except Clara from the given list by using Iterator
         Iterator<String> itr = myList.iterator(); // [ Tom, Jim, Clara, Angie, Mark ]
 
-        while(itr.hasNext()){
-            String el = itr.next();
+        while(itr.hasNext()){//has.next pointera senden sonra eleman var mi diye sorar. varsa true yoksa false verir
+            String el = itr.next();//next bir sonraki elemanin onune tasir ve ustunden atladigi elemani verir.
             if(!el.equals("Clara")){
-                itr.remove();
+                itr.remove();// remove ,nextin return ettigi elemani siler
             }
         }
-        System.out.println(myList);
+        System.out.println(myList);//[Clara]
 
         List<String> list = new ArrayList<>();
         list.add("Tom");
@@ -43,19 +43,19 @@ public class C04Iterators {
         list.add("Clara");
         list.add("Angie");
         list.add("Mark");
-        System.out.println(list);
+        System.out.println(list);//[Tom, Jim, Clara, Angie, Mark]
 
         ListIterator<String> litr = list.listIterator();// [ Tom, Jim, Clara, Angie, Mark ]
 
         //Type code to print all elements in reverse order by adding "!" to the end.
         // Mark! Angie! Clara! Jim! Tom!
-        while(litr.hasNext()){
+        while(litr.hasNext()){// bu ve alttaki kod pointer i en sona goturmek icin yazildi
             litr.next();
         }
 
         while(((ListIterator<?>) litr).hasPrevious()){ // [ Tom, Jim, Clara, Angie, Mark ]
             String el = litr.previous();
-            System.out.print(el + "! ");
+            System.out.print(el + "! ");//Mark! Angie! Clara! Jim! Tom!
         }
 
     }
